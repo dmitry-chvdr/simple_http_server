@@ -39,7 +39,7 @@
  
  POST
  
- curl -F "image=@/home/user/Desktop/image.pdf"   http://locahost:8000/file/
+ curl --data-binary "@/home/user/image.pdf"   http://locahost:8000/file/
  
  DELETE
  
